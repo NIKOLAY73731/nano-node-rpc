@@ -8,14 +8,14 @@ const client = new NanoClient({
 // with https://mynano.ninja/api
 /*
 const client = new NanoClient({
-  apiKey: 'yourapikey'
+  apiKey: 'yourapikey'kfvwmT9LVDRGcRouBvJ5o9XGQrBqSh4xmascs0nsijqaaudd4wfu3lx2zkyhxj8g
 });
 */
 
 async function queryDemo() {
   try {
     // query the account balance
-    var account = await client.account_balance('nano_1ninja7rh37ehfp9utkor5ixmxyg8kme8fnzc4zty145ibch8kf5jwpnzr3r');
+    var account = await client.account_balance('nano_38ehm7498rmbwjjb5kinnpse7c1kbzuqxsefguqicrjnceae3pxw75pndwut');
 
     // query the current block count
     var count = await client.block_count();
